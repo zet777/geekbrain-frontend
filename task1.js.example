@@ -3,6 +3,6 @@
 /* Put your code here */
 function cut(){
 	var str = process.argv[2];
-	console.log(str.replace(/[Р,р,К,к,Н,н]/g, ""));	
+	process.stdout.write(str.replace(/[Р,р,К,к,Н,н]/g, ""));	
 } 
 cut();
